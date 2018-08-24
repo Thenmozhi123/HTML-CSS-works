@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<title> ghf</title>
+
+</head>
+
+<style>
+       
+      *{box-sizing:border-box;}	  
+      .container{width:100%;height:auto;margin:auto;}
+	  
+      .header{width:100%;height:100px;background-color:blue;}
+	.h1{width:60%;height:100px;color:white;float:left;font-weight:bold;font-size:30px;text-align:center;}
+	.h2{width:20%;height:50px;float:left;color:white;}
+	input [type="email"]{width:180px;height:40px;float:left;}
+	img{width:150px;height:200px;float:left;}
+
+input [type="text"]{width:180px;height:40px;font-size:1px;}
+input [type="date"]{width:180px;height:40px;}
+input [type="password"]{width:180px;height:40px;}
+label{font-size:22px;font-weight:bold;}
+input::placeholder{color:pink;font-size:18px;}
+	
+     
+
+                  
+	
+				 
+		.main{width:100%;height:400px;clear:both;}
+
+        .main1{width:50%;height:400px;float:left;font-size:25px;background-color:#f2f2f2;}		
+        .main2{width:50%;height:400px;background-color:gray;float:left;}
+        .m1{width:100%;height:100px;font-weight:bold;font-size:18px;text-align:center;}	
+        .m2{width:100%;height:300px;padding-left:320px;float:left;}
+         .m3{width:100%;height:100px;text-align:center;}
+         .m4{width:100%;height:300px;}
+        			
+	#add{float:left;}
+	
+     
+	  
+	  
+
+</style>
+
+
+<body>
+
+
+   <div class="container">
+   
+	<div class="header"> 
+		<div class="h1">
+                                   <p>facebook</div>
+                                   <div class="h2">
+		<div><label>Email</label>
+		<input type="email">   </div>
+		<div><label>Password</label>
+		<input type="password" pattern="(?=.*[0-9])(?=.*[a-zA-Z])(@#$%^&){6,}"></div>
+		</p>Forgotten password?</p></div>
+		<div> 
+                                    <input type="submit" value="login">  
+                                       </div>
+		</div>
+
+		
+	</div>
+
+	<div class="main">
+		<div class="main1">
+		<div class="m1">
+		<p><label>Recent logins</label></p>
+		<p>Click your picture or add an account</p></div>
+		<div class="m2">
+		<img src="roki.jpg">
+		<img id="add" src="bg1.jpg"></div>
+		</div>
+		
+		
+		
+
+		<div class="main2">
+		<div class="m3"><p>Create a new account</p>
+		<p>It's free and always will be</div>
+		<div class="m4">
+		<div>
+                                   <input type="text" required pattern="[a-zA-Z]{4}" placeholder="First Name"> <input type="text" required pattern="[a-zA-Z]{4}" placeholder="Surname">
+                                 </div>
+                                 
+                            
+
+                                 <div>
+                                           <input type="text" placeholder="Mobile number or Email id"> 
+                                 </div>
+
+
+
+                                 <div>
+                                             <input type="password" pattern="(?=.*[0-9])(?=.*[a-zA-Z]){6,}" placeholder="New Password">  
+                                 </div>
+
+
+		<div>
+                                   <label>BIRTHDAY</label>        <input type="date">
+		<p>Why do I need to provide my birth date?</p> 
+                                 </div>
+
+
+
+
+                                 <div>
+                                     
+                                  Male<input type="radio" name="x"> 
+                                  Female<input type="radio" name="x">  
+                                 </div>
+
+                             
+
+                                 
+                    
+                  
+                                       <div> 
+                                         <input type="submit" value="Sign up">  
+                                       </div>
+                                  
+
+
+	</div>			
+	</div>
+	</div>
+						 
+   
+   </div>
+
+</body>
+
+
+</html>
