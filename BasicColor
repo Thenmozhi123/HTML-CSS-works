@@ -1,0 +1,15 @@
+<html>
+    <head>
+<title>CSS Color</title>
+<link rel ="stylesheet" type="text/css" href="ColorStyle.css">
+</head>
+ <body>
+<H1 class="demo1">Welcome to html & css</H1>
+<H2>Please watch whole tutorials</H2>
+<p>my name is thenmozhi</p>
+<p>welocme to great learning</p>
+<h1>hi there , how are you?</h1>
+<h2> hey , im good</h2>
+<p>enjoy this seesions</p>
+    </body>
+</html>
